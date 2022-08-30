@@ -1,54 +1,95 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif   ;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.container{
-    margin-top: 20px;
-    margin-left: 50px;
-    margin-right: 50px;
+.container {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
-.head{
-    border: 1px solid black;
-    align-items: flex-end;
-    justify-content: end;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+.head {
+  font-family: Calibri;
+  /* border: 1px solid black; */
+  /* align-items: flex-end; */
+  justify-content: end;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
 }
 
-.head h2{
-    color: rgba(65, 65, 245, 0.89);
+.head h2 {
+  font-size: 30px;
+  color: rgba(65, 65, 245, 0.89);
 }
 
-.head .personal_info{
-    margin-right: 300px;
+.head .personal_info {
+  margin-left: 200px;
+  margin-right: 230px;
 }
 
-.head .personal_info .info{
-    /* display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row; */
-
-    /* list-style-type: none; */
+.head .personal_info .info {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.head .personal_info .info p{
-    display: flex;
-    flex-direction: row;
+.head .personal_info .info2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
 }
 
-.head .image{
-    border-radius: 20px;
-    width: 100px;
-    height: 100px;
-    border: 3px solid rgba(65, 65, 245, 0.89);
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
+.head .personal_info .info p {
+  display: flex;
+  flex-direction: row;
+}
+
+.head .image {
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  border: 3px solid rgba(65, 65, 245, 0.89);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+/* Education */
+.education {
+  text-align: left;
+}
+
+.education p {
+  font-weight: 600;
+  color: rgba(65, 65, 245, 0.89);
+  border-bottom: 1px solid rgba(65, 65, 245, 0.89);
+}
+
+.education .schooling {
+  margin-top: 20px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.education .schooling li ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.education .schooling li ul li:nth-child(2) {
+  font-weight: lighter;
+}
+
+.education .schooling li {
+  margin-top: 5px;
 }
