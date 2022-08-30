@@ -1,0 +1,5 @@
+Run time scenarios for running the web pages:-
+1. Web browers(ex. chrome, edge, firefox)
+2. Headless browers(ex. headless chromium)
+3. Web views(ex. cordova,NW.js, electron)
+3. Native from web browers (ex. flutter, react native)

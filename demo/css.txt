@@ -1,0 +1,18 @@
+cascading style sheets
+1. Inline
+2. Internal
+3. External
+
+CSS selector
+a       {property name: property value;}
+Element(a)             seperator(:)
+
+Types of selector:-
+Universal, ID, class, Attribute, Element
+
+style in the element> Combined selectors> Id> class> Attribute> element> *> Inherited styles
+
+    ID              vs     class
+1.  More specific          generic
+2.  #                      .
+

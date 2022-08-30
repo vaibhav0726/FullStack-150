@@ -1,0 +1,53 @@
+               			RoadMap
+
+1. Html -> Provides Basic Structures
+2. CSS -> Used for Styling
+3. Responsive Websites
+
+Mobile Tablet desktop/laptops
+
+4. Javascript -> Login Based Language
+
+  		    Internet and World Wide Web
+
+Web content:-
+1. Web pages
+2. Web Sites 
+Website:- collection of web pages
+3. Web portals
+
+
+Frontend
+1. HTML 
+2. CSS
+3. Javascript
+4. DOM and BOM
+5. jquery
+6. Ajax + API
+7. Reactjs or nodejs first
+
+Backend
+1. Nodejs 
+2. Express js
+3. Mongo DB
+4. My SQL
+5. Radis (optional)
+
+Projects
+1. Static Navbar 
+2. Dynamic Navbar
+3. Portfolio Website
+4. Photo Gallery
+5. Snake Game 
+6. Calculator
+7. Ecommerce Website
+
+			Placement
+1. OA(core subjects)
+2. DSA
+3. DSA + Web Dev -> 30lpa+
+4. 
+
+		Josh Technologies 
+1. DSA-level-2
+

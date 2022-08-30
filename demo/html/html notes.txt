@@ -1,0 +1,23 @@
+		Introduction to HTML:-
+HTML(Hyper Text Markup Language) by Tim Berners Lee
+		<html>
+
+Tags or elements
+<html> 
+tag :-> <Tagname>....</Tagname>
+	 opening       closing
+	 of tag	       of tag
+1. File creation -> .html extension
+
+HTML has a Tree like Structure
+		HTML -> root of the tree
+	1. head 	2. body
+Div tag 
+p tag
+h1,h2,h3,h4,h5,h6
+superscript and subscript(sup and sub)
+ul and ol and li
+span tag
+anchor tag
+pre tag
+input tag
