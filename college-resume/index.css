@@ -8,6 +8,7 @@
   margin-top: 20px;
   margin-left: 50px;
   margin-right: 50px;
+  margin-bottom: 50px;
 }
 
 .head {
@@ -30,9 +31,9 @@
 .head .personal_info {
   /* border: 2px solid black; */
   /* padding: 100px; */
-  width: 50%;
+  width: 32%;
   margin-left: 250px;
-  margin-right: 230px;
+  margin-right: 320px;
 }
 
 .head .personal_info .info {
@@ -109,7 +110,7 @@
 }
 
 .list span:nth-child(3){
-  margin-left: 620px;
+  margin-left: 890px;
   margin-bottom: 10px;
 }
 
@@ -151,7 +152,7 @@
 
 .projects .company span{
   font-weight: lighter;
-  margin-left: 670px;
+  margin-left: 940px;
   text-align: right;
 }
 
@@ -166,3 +167,51 @@
 .projects .description ul li{
   margin-top: 3px;
 }
+
+/* Skills */
+
+.skills p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgba(65, 65, 245, 0.89);
+  border-bottom: 1px solid rgba(65, 65, 245, 0.89);
+}
+
+.skills .name{
+  font-weight: bold;
+}
+
+.skills .description{
+  margin-left: 50px;
+}
+
+.skills .description ul li{
+  margin-top: 3px;
+}
+
+/* extra */
+.extra p{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgba(65, 65, 245, 0.89);
+  border-bottom: 1px solid rgba(65, 65, 245, 0.89);
+}
+.extra .description{
+  margin-left: 50px;
+}
+
+.extra .description ul li{
+  margin-top: 3px;
+}
+
+/* declaration */
+.declaration p{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgba(65, 65, 245, 0.89);
+  border-bottom: 1px solid rgba(65, 65, 245, 0.89);
+}
+
