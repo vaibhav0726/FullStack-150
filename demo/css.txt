@@ -16,3 +16,16 @@ style in the element> Combined selectors> Id> class> Attribute> element> *> Inhe
 1.  More specific          generic
 2.  #                      .
 
+
+        COLORS
+o -> ff
+1. Hexadecimal
+r from 0 -> f
+g from 0 -> f
+b from 0 -> f
+2. rgb()
+
+3. rgba()
+
+            positioning in CSS
+1.static 2.Relation 3.Absolute 4.Fixed 5.Sticky

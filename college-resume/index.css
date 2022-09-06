@@ -11,8 +11,8 @@
 }
 
 .head {
-  font-family: Calibri;
   /* border: 1px solid black; */
+  font-family: Calibri;
   /* align-items: flex-end; */
   justify-content: end;
   text-align: center;
@@ -28,7 +28,10 @@
 }
 
 .head .personal_info {
-  margin-left: 200px;
+  /* border: 2px solid black; */
+  /* padding: 100px; */
+  width: 50%;
+  margin-left: 250px;
   margin-right: 230px;
 }
 
@@ -66,6 +69,7 @@
 /* Education */
 .education {
   text-align: left;
+  margin-bottom: 30px;
 }
 
 .education p {
@@ -92,4 +96,73 @@
 
 .education .schooling li {
   margin-top: 5px;
+}
+
+
+/* INTERNSHIP EXPERIENCE */
+.internship {
+  text-align: left;
+}
+
+.list{
+  margin-top: 15px;
+}
+
+.list span:nth-child(3){
+  margin-left: 620px;
+  margin-bottom: 10px;
+}
+
+.internship p {
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgba(65, 65, 245, 0.89);
+  border-bottom: 1px solid rgba(65, 65, 245, 0.89);
+}
+
+.company{
+  font-weight: bold;
+}
+
+.role{
+  font-style: italic;
+}
+
+.internship .description{
+  margin-left: 50px;
+}
+
+.internship .description ul li{
+  margin-top: 3px;
+}
+
+/* projects */
+.projects p {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  color: rgba(65, 65, 245, 0.89);
+  border-bottom: 1px solid rgba(65, 65, 245, 0.89);
+}
+
+.projects .company{
+  font-weight: bold;
+}
+
+.projects .company span{
+  font-weight: lighter;
+  margin-left: 670px;
+  text-align: right;
+}
+
+.projects .role{
+  font-style: italic;
+}
+
+.projects .description{
+  margin-left: 50px;
+}
+
+.projects .description ul li{
+  margin-top: 3px;
 }

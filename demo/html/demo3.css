@@ -1,0 +1,71 @@
+section article {
+  width: 200px;
+  height: 200px;
+  border: 2px solid rgb(10, 11, 23);
+  margin: 100px;
+  margin-left: 600px;
+  background-color: coral;
+}
+
+section article div{
+  float: bottom;
+  width: 80%;
+  height: 80%;
+  background-color: brown;  
+}
+
+span{
+  font-size: 50px;
+  border: 1px solid black;
+  background-color: green;
+}
+
+/* div{
+  border: 1px solid black;
+  background-color: pink;
+} */
+
+/* .first{
+  display: flex;
+}
+
+.first div{
+  position: ;
+  display: flex;
+  
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  background-color: aqua;
+} */
+
+section{
+  display: flex;
+}
+
+#static{
+  position: static;
+}
+
+#static div{
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+#relative{
+  position: relative;
+}
+
+#relative div{
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+}
+div{
+  position: sticky;
+  margin-bottom: 10px;
+  border: 2px solid black;
+  font-size: 1.8rem;
+  background-color: aquamarine;
+}

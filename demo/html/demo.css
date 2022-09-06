@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 
-ul > li {
+/* to select odd number of list */
+ul > li:nth-of-type(odd) {
     border-top: 5px solid red;
 }
 
@@ -19,4 +20,17 @@ ul > li {
 .box:hover{
     background-color: blue;
     border-radius: 100%;
+}
+
+section p:nth-child(1){
+    color: blue;
+}
+
+h1::before{
+    content: 'mradul ';
+    color: aqua;
+}
+
+h1::after{
+    content: '\2606';
 }
